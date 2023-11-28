@@ -1,0 +1,61 @@
+.countAnimate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("https://res.cloudinary.com/dfcnmxndf/image/upload/v1701051304/Comuna-de-Franck/ne2gsqahgdawctkmltcn.png");
+  background-size: 100% 300px; /* Ancho del 100% y altura fija de 300px */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.personas {
+  text-align: center;
+  border-style: ridge;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #023e8a;
+  padding: 20px 10px 10px 10px;
+  margin: 20px 10px 10px 10px;
+  width: 300px;
+  height: 175px;
+  text-shadow: 0 0 5px white;
+}
+.construccion {
+  text-align: center;
+  border-style: ridge;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #023e8a;
+  padding: 15px 10px 10px 10px;
+  margin: 20px 10px 10px 10px;
+  width: 300px;
+  height: 175px;
+  text-shadow: 0 0 5px white;
+}
+.casas {
+  text-align: center;
+  border-style: ridge;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #023e8a;
+  padding: 15px 10px 10px 10px;
+  margin: 20px 10px 10px 10px;
+  width: 300px;
+  height: 175px;
+  text-shadow: 0 0 5px white;
+}
+.desechosReciclados {
+  text-align: center;
+  border-style: ridge;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #023e8a;
+  padding: 15px 10px 10px 10px;
+  margin: 20px 10px 10px 10px;
+  width: 300px;
+  height: 175px;
+  text-shadow: 0 0 5px white;
+}

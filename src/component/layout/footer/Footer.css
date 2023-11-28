@@ -1,0 +1,87 @@
+.footer {
+  background-color: #023e8a;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.contact1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+}
+.contact2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+.contact3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ajusta el espacio entre la parte superior e inferior */
+  align-items: center;
+}
+
+.iconos-superiores {
+  display: flex;
+  align-items: center; /* Centra los iconos verticalmente */
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.iconos-superiores span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: #eaeaea;
+  transition: all 0.3s;
+}
+.iconos-superiores span:hover {
+  transform: scale(1.25);
+}
+
+.iconos-superiores span a {
+  display: inline-block; /* Asegura que el tamaño del enlace no afecte otros elementos */
+  color: black; /* Cambia el color del icono a negro */
+}
+
+.flecha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px; /* Ajusta el margen inferior según sea necesario */
+}
+
+.flecha span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: #eaeaea;
+  transition: all 0.3s;
+}
+.flecha span:hover {
+  transform: scale(1.25);
+}
+
+.flecha span a {
+  display: inline-block; /* Asegura que el tamaño del enlace no afecte otros elementos */
+  color: black; /* Cambia el color del icono de la flecha a negro */
+}
+iframe {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+}
