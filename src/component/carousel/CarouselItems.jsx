@@ -33,6 +33,13 @@ const CarouselItems = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img
+          src="https://res.cloudinary.com/dfcnmxndf/image/upload/v1701807077/Comuna-de-Franck/suwryxffwzzpnbwaetbl.jpg"
+          alt=""
+          className="carousel-image"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
           src="https://res.cloudinary.com/dfcnmxndf/image/upload/v1700779063/Comuna-de-Franck/fncsluc6wlsuxrmvcfjd.jpg"
           alt=""
           className="carousel-image"

@@ -1,17 +1,11 @@
-import CountAnimate from "./component/countAnimate/CountAnimate";
-import CarouselItems from "./component/carousel/CarouselItems";
-import Footer from "./component/layout/footer/Footer";
-import NavBar from "./component/layout/navBar/NavBar";
+import { BrowserRouter } from "react-router-dom";
+import AppRouter from "./router/AppRouter";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <CarouselItems />
-      <CountAnimate />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 }
-
 export default App;

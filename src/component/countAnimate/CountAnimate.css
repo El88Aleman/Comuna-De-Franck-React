@@ -59,3 +59,55 @@
   height: 175px;
   text-shadow: 0 0 5px white;
 }
+@media screen and (max-width: 768px) {
+  .countAnimate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/dfcnmxndf/image/upload/v1701869472/Comuna-de-Franck/mbkbd29m2nrr3oienf8l.png");
+    background-size: 100% 100%;
+    height: auto; /* Ajusta la altura según tus preferencias, 100vh significa 100% del alto de la ventana */
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 170px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .personas,
+  .construccion,
+  .casas,
+  .desechosReciclados {
+    /* ... otros estilos ... */
+    padding: 10px;
+    margin: 10px;
+    width: 75%; /* Ajusta el ancho al 100% para adaptarse al contenedor principal */
+  }
+}
+@media screen and (max-width: 480px) {
+  .countAnimate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/dfcnmxndf/image/upload/v1701869472/Comuna-de-Franck/mbkbd29m2nrr3oienf8l.png");
+    background-size: 100% 100%;
+    height: auto; /* Ajusta la altura según tus preferencias, 100vh significa 100% del alto de la ventana */
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 110px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .personas,
+  .construccion,
+  .casas,
+  .desechosReciclados {
+    /* ... otros estilos ... */
+    padding: 10px;
+    margin: 10px;
+    width: 75%; /* Ajusta el ancho al 100% para adaptarse al contenedor principal */
+  }
+}

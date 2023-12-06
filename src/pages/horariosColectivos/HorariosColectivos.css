@@ -1,0 +1,24 @@
+.horarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.horarios img {
+  width: 1000px;
+  height: auto; /* Esto garantiza que la altura se ajuste automáticamente para mantener la proporción original de la imagen. */
+  border-radius: 30px;
+}
+@media screen and (max-width: 768px) {
+  .horarios img {
+    width: 600px;
+    height: auto; /* Esto garantiza que la altura se ajuste automáticamente para mantener la proporción original de la imagen. */
+    border-radius: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .horarios img {
+    width: 400px;
+    height: auto; /* Esto garantiza que la altura se ajuste automáticamente para mantener la proporción original de la imagen. */
+    border-radius: 30px;
+  }
+}

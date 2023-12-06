@@ -50,7 +50,7 @@
 
 .iconos-superiores span a {
   display: inline-block; /* Asegura que el tamaño del enlace no afecte otros elementos */
-  color: black; /* Cambia el color del icono a negro */
+  color: black !important; /* Cambia el color del icono a negro */
 }
 
 .flecha {
@@ -77,11 +77,53 @@
 
 .flecha span a {
   display: inline-block; /* Asegura que el tamaño del enlace no afecte otros elementos */
-  color: black; /* Cambia el color del icono de la flecha a negro */
+  color: black !important; /* Cambia el color del icono de la flecha a negro */
 }
 iframe {
   margin: 0;
   padding: 0;
   border: 0;
   display: block;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    background-color: #023e8a;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+  }
+  .contact2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  .contact3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Ajusta el espacio entre la parte superior e inferior */
+    align-items: center;
+  }
+  .flecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Ajusta el margen inferior según sea necesario */
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  iframe {
+    height: 300px;
+  }
 }

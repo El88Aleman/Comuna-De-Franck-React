@@ -1,0 +1,69 @@
+.industrias {
+  font-family: "Montserrat", sans-serif;
+}
+.milkaut {
+  display: flex;
+  margin: 100px 10px 10px 10px;
+  align-items: center;
+}
+.solaBrusa {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.ramada {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.aceitera {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.adecoAgro {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+.metalurgicaFranck {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .solaBrusa,
+  .aceitera,
+  .metalurgicaFranck {
+    flex-direction: column-reverse;
+  }
+  .milkaut,
+  .ramada,
+  .adecoAgro {
+    flex-direction: column;
+  }
+
+  .milkaut img,
+  .solaBrusa img,
+  .ramada img,
+  .aceitera img,
+  .adecoAgro img,
+  .metalurgicaFranck img {
+    width: 75%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .solaBrusa,
+  .ramada,
+  .aceitera,
+  .adecoAgro,
+  .metalurgicaFranck span {
+    margin: 10px;
+  }
+  .milkaut span {
+    margin: 100px 10px 10px 10px;
+  }
+}

@@ -6,7 +6,22 @@ import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaArrowUpLong } from "react-icons/fa6";
 import "./Footer.css";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+  const handleWhatsappClick = () => {
+    window.open("https://wa.me/543425496379", "_blank");
+  };
+  const handleFacebookClick = () => {
+    window.open("https://www.facebook.com/ComunadeFranck", "_blank");
+  };
+  const handleInstagramClick = () => {
+    window.open("https://www.instagram.com/comuna_de_franck/", "_blank");
+  };
+
   return (
     <div>
       <span>
@@ -51,26 +66,26 @@ const Footer = () => {
         <div className="contact3">
           <div className="iconos-superiores">
             <span>
-              <a href="">
+              <a onClick={handleWhatsappClick}>
                 <FaWhatsapp size={30} />
               </a>
             </span>
             <span>
-              <a href="">
+              <a onClick={handleFacebookClick}>
                 <FaFacebookF size={30} />
               </a>
             </span>
             <span>
-              <a href="">
+              <a onClick={handleInstagramClick}>
                 <IoLogoInstagram size={30} />
               </a>
             </span>
           </div>
           <div className="flecha">
             <span>
-              <a href="">
+              <Link onClick={scrollToTop}>
                 <FaArrowUpLong />
-              </a>
+              </Link>
             </span>
           </div>
         </div>

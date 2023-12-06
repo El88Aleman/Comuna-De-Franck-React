@@ -1,3 +1,15 @@
 .navLink {
   font-family: "Montserrat", sans-serif;
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  color: black;
+  transition: font-size 0.3s ease; /* Agrega una transición suave al tamaño del texto */
+  margin-top: 10px;
+}
+.navLink:hover {
+  font-size: 1.2em; /* Tamaño del texto al pasar el mouse por encima */
+}
+@media screen and (max-width: 480px) {
+  .navLink {
+    margin-top: 20px;
+  }
 }
