@@ -21,7 +21,7 @@
   margin: 20px 10px 10px 10px;
   width: 300px;
   height: 175px;
-  text-shadow: 0 0 5px white;
+  text-shadow: 0 0 5px cornflowerblue;
 }
 .construccion {
   text-align: center;
@@ -33,7 +33,7 @@
   margin: 20px 10px 10px 10px;
   width: 300px;
   height: 175px;
-  text-shadow: 0 0 5px white;
+  text-shadow: 0 0 5px cornflowerblue;
 }
 .casas {
   text-align: center;
@@ -45,7 +45,7 @@
   margin: 20px 10px 10px 10px;
   width: 300px;
   height: 175px;
-  text-shadow: 0 0 5px white;
+  text-shadow: 0 0 5px cornflowerblue;
 }
 .desechosReciclados {
   text-align: center;
@@ -57,7 +57,7 @@
   margin: 20px 10px 10px 10px;
   width: 300px;
   height: 175px;
-  text-shadow: 0 0 5px white;
+  text-shadow: 0 0 5px cornflowerblue;
 }
 @media screen and (max-width: 768px) {
   .countAnimate {
@@ -70,19 +70,27 @@
     height: auto; /* Ajusta la altura según tus preferencias, 100vh significa 100% del alto de la ventana */
     border-radius: 10px;
     width: 50%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 170px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Montserrat", sans-serif;
   }
   .personas,
   .construccion,
   .casas,
   .desechosReciclados {
-    /* ... otros estilos ... */
-    padding: 10px;
-    margin: 10px;
-    width: 75%; /* Ajusta el ancho al 100% para adaptarse al contenedor principal */
+    box-sizing: border-box;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #023e8a;
+    padding: 15px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
+    width: 50%;
+    height: 175px;
+    text-shadow: 0 0 5px cornflowerblue;
   }
 }
 @media screen and (max-width: 480px) {
@@ -95,19 +103,27 @@
     background-size: 100% 100%;
     height: auto; /* Ajusta la altura según tus preferencias, 100vh significa 100% del alto de la ventana */
     border-radius: 10px;
-    width: 50%;
+    width: 80%;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 110px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Montserrat", sans-serif;
   }
   .personas,
   .construccion,
   .casas,
   .desechosReciclados {
-    /* ... otros estilos ... */
-    padding: 10px;
-    margin: 10px;
-    width: 75%; /* Ajusta el ancho al 100% para adaptarse al contenedor principal */
+    box-sizing: border-box;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #023e8a;
+    padding: 15px 10px 10px 10px;
+    margin: 20px 10px 10px 10px;
+    width: 50%;
+    height: 175px;
+    text-shadow: 0 0 5px cornflowerblue;
   }
 }

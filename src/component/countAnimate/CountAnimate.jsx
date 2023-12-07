@@ -6,6 +6,7 @@ import CountUp from "react-countup";
 import { useState } from "react";
 import ScrollTrigger from "react-scroll-trigger";
 import "./CountAnimate.css";
+import { Typography } from "@mui/material";
 const CountAnimate = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
@@ -26,7 +27,16 @@ const CountAnimate = () => {
               )}
             </h3>
             <span>
-              <h4>HABITANTES</h4>
+              <Typography
+                className="tipografia"
+                style={{
+                  fontFamily: "Montserrat, sans-serif",
+                }}
+                variant="h6"
+                gutterBottom
+              >
+                HABITANTES
+              </Typography>
             </span>
           </span>
         </div>
@@ -42,7 +52,15 @@ const CountAnimate = () => {
               )}
             </h3>
             <span>
-              <h4>OBRAS TERMINADAS</h4>
+              <Typography
+                style={{
+                  fontFamily: "Montserrat, sans-serif",
+                }}
+                variant="h6"
+                gutterBottom
+              >
+                OBRAS TERMINADAS
+              </Typography>
             </span>
           </span>
         </div>
@@ -58,7 +76,15 @@ const CountAnimate = () => {
               )}
             </h3>
             <span>
-              <h4>VIVIENDAS OTORGADAS</h4>
+              <Typography
+                style={{
+                  fontFamily: "Montserrat, sans-serif",
+                }}
+                variant="h6"
+                gutterBottom
+              >
+                VIVIENDAS OTORGADAS
+              </Typography>
             </span>
           </span>
         </div>
@@ -74,7 +100,15 @@ const CountAnimate = () => {
                 <CountUp start={0} end={2000} duration={4} delay={0} />
               )}
             </h3>
-            <h4>TONELADAS RECICLADAS</h4>
+            <Typography
+              style={{
+                fontFamily: "Montserrat, sans-serif",
+              }}
+              variant="h6"
+              gutterBottom
+            >
+              TONELADAS REGISTRADAS
+            </Typography>
           </span>
         </div>
       </div>

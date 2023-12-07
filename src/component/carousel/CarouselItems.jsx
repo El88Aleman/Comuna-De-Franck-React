@@ -2,7 +2,7 @@ import { Carousel } from "react-bootstrap";
 import "./CarouselItems.css";
 const CarouselItems = () => {
   return (
-    <Carousel style={{ marginTop: "80px" }}>
+    <Carousel className="carousel" style={{ marginTop: "80px" }}>
       <Carousel.Item>
         <img
           src="https://res.cloudinary.com/dfcnmxndf/image/upload/v1700779064/Comuna-de-Franck/y3by191xk39ogav8ytoc.jpg"

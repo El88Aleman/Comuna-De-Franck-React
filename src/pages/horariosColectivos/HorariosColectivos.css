@@ -10,14 +10,14 @@
 }
 @media screen and (max-width: 768px) {
   .horarios img {
-    width: 600px;
+    width: 550px;
     height: auto; /* Esto garantiza que la altura se ajuste automáticamente para mantener la proporción original de la imagen. */
     border-radius: 30px;
   }
 }
 @media screen and (max-width: 480px) {
   .horarios img {
-    width: 400px;
+    width: 350px;
     height: auto; /* Esto garantiza que la altura se ajuste automáticamente para mantener la proporción original de la imagen. */
     border-radius: 30px;
   }
