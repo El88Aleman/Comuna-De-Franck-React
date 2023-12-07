@@ -107,7 +107,7 @@ const CountAnimate = () => {
               variant="h6"
               gutterBottom
             >
-              TONELADAS REGISTRADAS
+              TONELADAS RECICLADAS
             </Typography>
           </span>
         </div>

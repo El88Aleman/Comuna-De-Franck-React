@@ -82,7 +82,7 @@ const Industrias = () => {
             <strong>LACTEOS LA RAMADA S.A</strong> es una empresa lactea que
             llego para sumarse a la comunidad franckina, se destaca por la
             produccion de leche en polvo y es una las empresas mas innovadoras
-            en el pueblo por su rceacion hace no muchos años
+            en el pueblo por su creación hace no muchos años
           </h2>
         </span>
       </div>
@@ -131,7 +131,7 @@ const Industrias = () => {
           }}
         >
           <h2>
-            <strong>ADECOAGRO S.A</strong> es una empresa de acopio arroz que
+            <strong>ADECOAGRO S.A</strong> es una empresa de acopio de arroz que
             cuenta con una planta con una gran capacidad de alamacenamiento del
             mismo, es una sucursal instalada hace no demasiado tiempo y ha
             generado muchos puestos de trabajo para los franckinos
